@@ -1,0 +1,373 @@
+            *{
+                padding: 0px;
+                margin: 0px auto;
+            }
+            .container-flud{
+                width: 920px;
+                
+            }
+            .header{
+                height: 100px;
+                background-image:url('..\\..\\tk\\image\\caro.jpg');
+                background-color:#2257A5;
+            }
+            .nav{
+                height:40px;
+                background-color:#0F467E;
+            }
+            .nav ul{
+                list-style: none;
+                height:40px;
+                float:left;
+            }
+            .nav ul li{
+                float:left;
+            }
+            .nav ul li a{
+                display: block;
+                font-size:14px;
+                text-decoration: none;
+                text-transform:uppercase;
+                font-weight: bold;
+                width:100px;
+                height:40px;
+                color: #fff;
+                margin-right:10px;
+                text-align: center;
+                line-height: 40px; 
+            }
+            .nav ul li a:hover{
+                background-image:url('..\\..\\tk\\image\\anhnav.jpg');
+                font-size:18px;
+         
+            }
+            .nav #tt_ten{
+                margin-top:10px;
+                width:150px;
+                float:right;
+                color:#fff;
+                text-decoration: none;
+            }
+
+            .content{
+                height:auto;
+                margin-top:2px;
+            }
+            .content .slibar{
+                float: left;
+                width:200px;
+                height:500px;
+                background-color: #9933CC;
+                border:2px solid #9933CC;
+                border-radius: 15px;
+            }
+            .content .slibar .slibar-box{
+                height:470px;
+                width:170px;
+                margin-top: 10px;
+                background-color:#fff;
+                position: relative;
+                border:  1px solid #fff;
+                border-radius: 15px;
+            }
+            .content .slibar .slibar-box .box{
+                display: block;
+                width:164px;
+                height:64px;
+                margin-bottom:20px; 
+       
+            }
+          
+            .content .slibar .slibar-box .box a{
+                display:block;
+                width:164px;
+                height:64px;
+                margin-left:10px;
+               
+                
+            }
+             .content .slibar .slibar-box .box #anh1{
+                display:block;
+                position: absolute;
+                top:5px;
+                background-image:url('..\\..\\tk\\image\\maubinh.png');
+                background-repeat:no-repeat;
+            }
+               .box #anh2{
+                display:block;
+                background-image:url('..\\..\\tk\\image\\sam.png');
+                background-repeat:no-repeat;
+            }
+              .box #anh3{
+                display:block;
+                background-image:url('..\\..\\tk\\image\\tala.png');
+                background-repeat: no-repeat;
+            }
+             .box #anh4{
+                display:block;
+                background-image:url('..\\..\\tk\\image\\tienlen.png');
+                background-repeat: no-repeat;
+            }
+               .box #anh5{
+                display:block;
+                background-image:url('..\\..\\tk\\image\\xito.png');
+                background-repeat: no-repeat;
+            }
+            .content .formdn{
+                float:right;
+                width:690px;
+                height:500px;
+                background-color: #1F122C;
+            }
+            .content .formdn .form{
+                width:300px;
+                height:250px;
+                border: 1px solid #384A8C;
+                border-radius:20px;
+                background-color: #384A8C;
+                margin-top:100px;
+            }
+            .content .formdn .form h3{
+                text-align:center;
+                color:#fff;
+                font-weight:bold;
+            }
+            .content .formdn .form label{
+                width: 100px;
+                padding-left:5px;
+                   color:#fff;
+            }
+            .content .formdn .form input{
+                margin-bottom:10px;
+            }
+            .content .formdn .form button{
+                margin-top:20px;
+                margin-right:10px;
+                background-color: #D5813D;
+                width:100px;
+                border:1px solid #D5813D;
+                border-radius:10px;
+                color:#fff;
+                font-weight:bold;
+                padding:5px;
+            }
+            .content .formdn .form #dn{
+               margin-left:60px;
+            }
+            
+            .content .manchoi{
+                float:right;
+                width:710px;
+                height: 500px;
+                color: green;
+                background-color: #afa;
+            }
+            /*chatbox */
+            .content .manchoi .chatbox{
+                float: right;
+                width: 200px;
+                height: 300px;
+                background-color: #D5813D;
+                font-family: serif;
+                size: 14px;
+                margin-right: 20px;
+                border-radius:20px;
+            }
+            .chatbox #ochat{
+                width: 180px;
+                height: 230px;
+            }
+            .content .manchoi .man{
+                float:left;
+                width: 400px;
+                margin-top:20px;
+            }
+            .content .manchoi .xephang{
+                float:right;
+                margin-top:20px;
+                margin-right:30px; 
+                width:210px;
+                height:300px;
+                
+                background-color:#D5813D;
+                
+            }
+            .content .manchoi .xephang h4{
+                text-align: center;
+            }
+            .content .manchoi .xephang img{
+                float:left;
+                width:40px;
+            }
+            .content .manchoi .xephang p{
+                margin-left:60px;
+              margin-bottom:4px;
+               
+            }
+            .content .manchoi .xephang .tt_nguoi{
+                margin-bottom:5px;
+            }
+            /*style cho form chon quan */
+            .content .loadroom{
+                background-color: bisque;
+                width:920px;
+                height:490px;
+                
+            }
+            .content .loadroom .load-quan{
+              
+                text-align: center;
+                padding-top: 50px;
+                font-size: 20px;
+                
+                
+            }
+    
+            .load-chon-quan{
+                border: solid #384A8C;
+                width: 150px;
+                height: 150px;
+                text-align: center;
+                background-color:#2257A5;
+                padding-top: 30px;
+                
+            }
+            .load-chon-quan1{
+               margin-top: 30px;
+                border: solid #384A8C;
+                width: 150px;
+                height: 150px;
+                text-align: center;
+                background-color:#2257A5;
+                padding-top: 30px;
+                
+            }
+/*                .content .loadroom .banco{
+                    float: left;
+                    width: 450px;
+                    height: 500px;
+                    background-color: red;
+                }  
+                .chatbox{
+                    float: right;
+                }*/
+                
+            
+           /*style cho form dang ky*/
+           
+           
+           
+           .content .formdk{
+                float:right;
+                width:690px;
+                height:500px;
+                background-color: #1F122C;
+            }
+            .content .formdk .form{
+                width:300px;
+                height:250px;
+                border: 1px solid #384A8C;
+                border-radius:20px;
+                background-color: #384A8C;
+                margin-top:100px;
+            }
+            .content .formdk .form h3{
+                text-align:center;
+                color:#fff;
+                font-weight:bold;
+            }
+            .content .formdk .form label{
+                width:50px;
+                padding-left:5px;
+                   color:#fff;
+            }
+            .content .formdk .form input{
+                margin-bottom:10px;
+            }
+            .content .formdk .form button{
+                margin-top:20px;
+                margin-right:10px;
+                background-color: #D5813D;
+                width:100px;
+                border:1px solid #D5813D;
+                border-radius:10px;
+                color:#fff;
+                font-weight:bold;
+                padding:5px;
+            }
+            .content .formdk .form #dk{
+               margin-left:60px;
+            }
+            .clearfix{
+                clear: both;
+            }
+            .footer{
+                height: 120px;
+               background-color:#2257A5;
+                
+            }
+            .dsphong{
+                width: 690px;
+                height: 490px;
+            }
+            .dsphong .box{
+                float: left;
+                position:relative;
+                width: 150px;
+                height:100px;
+                border:1px solid red;
+                border-radius:30px;
+                color: green;
+                margin:10px;
+            }
+            .dsphong .box p{
+                text-size:16px;
+                font-weight: bold;
+                position: absolute;
+                top:5px;
+                left:50px;
+            }
+            .dsphong .box p1{
+                position: absolute;
+                top:40px;
+                left:45
+            }
+            .dsphong .box button{
+                position: absolute;
+                bottom: 10px;
+                left:45px;
+            }
+            .content .hotro{
+                font-size: 15px;
+                margin-left: 200px;
+                width: 720px;
+                height: 500px;
+                background-color: #afa;
+                border-radius:10px;
+            }
+             .content .tintuc{
+                margin-left: 200px;
+                font-size: 15px;
+                width: 720px;
+                height: 500px;
+                background-color: #afa;
+                border-radius:10px;
+            }
+            .cell {
+	width:30px;
+	height:30px;
+	text-align:center;
+        border:black solid 1px;
+}
+#msg {
+	color:red;
+	font-size:18pt;
+}
+#state {
+	width:500px;
+	height:100px;
+	color:green;
+	overflow:auto;
+	border:black solid 1px;}
+
+            
